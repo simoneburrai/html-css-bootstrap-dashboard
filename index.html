@@ -44,12 +44,12 @@
             </div>
           </nav>
     </header>
-    <main>
+    <main class="container-sm py-5 mx-lg-5">
         <div class="row ">
             <div class="col-12 col-lg-9">
                 <!-- Heading  -->
-                <div class="container-sm py-5 d-flex justify-content-between">
-                    <h1>Catalogo libri</h1>
+                <div class="container-sm pb-3 d-flex justify-content-between">
+                    <h2 class="h2">Catalogo libri</h2>
                     <input class="btn btn-primary" type="button" value="Aggiungi libro">
                 </div>
 
@@ -60,7 +60,7 @@
                         <th scope="col-6 align-items-center">Titolo</th>
                         <th  class="d-none d-md-table-cell" scope="col col-md-2">Data Prestito</th>
                         <th scope="col-3 col-md-2">Stato</th>
-                        <th class="text-center" scope="col-3 col-md-2">Azioni</th>
+                        <th class="text-center flex-shrink-0" scope="col-3 col-md-2">Azioni</th>
                       </tr>
                     </thead>
 
@@ -178,6 +178,71 @@
                   
             </div>
             <div class="col-12 col-lg-3">
+                <ul class="list-group my-2">
+
+                    <!-- Heading  -->
+                    <li class="list-group-item bg-light"><h2 class="h2">To Do</h2></li>
+                    <li class="list-group-item">
+                        <!-- Checkbox  -->
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                              <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckboxStretched">
+                              <label class="form-check-label stretched-link" for="firstCheckboxStretched">Chiamare segreteria</label>
+                            </li>
+                            <li class="list-group-item">
+                              <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckboxStretched">
+                              <label class="form-check-label stretched-link" for="secondCheckboxStretched">Mandare avvisi prestiti scaduti</label>
+                            </li>
+                            <li class="list-group-item">
+                              <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckboxStretched">
+                              <label class="form-check-label stretched-link" for="thirdCheckboxStretched">Ordinare Nuovi Libri</label>
+                            </li>
+                          </ul>
+                    </li>
+                </ul>
+                <ul class="list-group my-2">
+                    <li class="list-group-item bg-light"><h2 class="h2">F.A.Q.</h2></li>
+                    
+                    <li class=" list-group-item accordion" id="accordion-faq">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Come aggiungere un nuovo libro?
+                            </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordion-faq">
+                            <div class="accordion-body">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto consectetur reprehenderit, eum sed soluta commodi sint qui iure quis amet accusamus, repellendus ad itaque vero totam facilis veritatis vel deleniti!
+                            </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Come posso accedere all'anagrafica utenti?
+                            </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordion-faq">
+                            <div class="accordion-body">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis accusamus totam, explicabo optio similique mollitia sint pariatur. Omnis cum explicabo odit repudiandae accusantium. Nesciunt rem in enim saepe necessitatibus. Recusandae.
+                            </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Posso usare questa dashboard da Mobile?
+                            </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordion-faq">
+                            <div class="accordion-body">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium temporibus labore odit voluptatem libero pariatur quae voluptates delectus numquam. Aspernatur velit alias dicta molestiae esse architecto numquam quo voluptas animi.
+                            </div>
+                            </div>
+                        </div>
+                    </li>
+    
+                </ul>
             </div>
         </div>
     </main>
