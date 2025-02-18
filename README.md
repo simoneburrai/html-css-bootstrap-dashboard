@@ -1,6 +1,6 @@
 # Bootstrap Dashboard
 
-Nell'esercizio di oggi (salvato come progetto n.15), abbiamo come obiettivo la realizzazione di un layout responsive tramite il framework **Bootstrap**, integramdo funzionalità che richiede l'utilizzo di Javascript, ma senza scendere nel dettaglio.
+Nell'esercizio di oggi (salvato come progetto n.15), abbiamo come obiettivo la realizzazione di un layout responsive tramite il framework **Bootstrap**, integrando funzionalità che richiedono l'utilizzo di Javascript, ma senza scendere nel dettaglio.
 
 ## Info
 
@@ -17,11 +17,11 @@ Qui di seguito i 3 layout da rappresentare, in ordine dal più piccolo al più g
 
 ### Tablet
 
-![Model](https://github.com/simoneburrai/html-css-bootstrap-dashboard/blob/main/readme-img/tablet.png?raw=true)
+![Model](https://github.com/simoneburrai/html-css-bootstrap-dashboard/blob/main/img/readme-img/tablet.png?raw=true)
 
 ### Desktop
 
-![Model](https://github.com/simoneburrai/html-css-bootstrap-dashboard/blob/main/readme-img/desktop.png?raw=true)
+![Model](https://github.com/simoneburrai/html-css-bootstrap-dashboard/blob/main/img/readme-img/desktop.png?raw=true)
 
 
 ## Links
