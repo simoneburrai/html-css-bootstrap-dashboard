@@ -50,7 +50,7 @@
 
             <form action="">
                 <!-- Sezione Nome e Cognome -->
-                <div class="row row-cols-md-2">
+                <div class="row row-cols-1 row-cols-md-2">
                     <!-- Nome  -->
                      <div class="col">
                         <label for="name">Nome Autore</label>
@@ -70,9 +70,9 @@
 
 
                  <!-- Sezione Genere, Anno di Pubblicazione, ISBN  -->
-                 <div class="row row-cols-1 row-cols-md-2 row-cols-md-3">
+                 <div class="row row-cols-1">
                     <!-- Genere  -->
-                     <div class="col">
+                     <div class="col col-md-6 col-lg-4">
                         <label for="book-genre">Genere</label>
                         <select class="form-select" name="genre" id="book-genre">
                             <option value="" selected>Scegli il Genere</option>
@@ -85,16 +85,23 @@
                         </select>
                      </div>                 
                     <!-- Anno di Pubblicazione  -->
-                    <div class="col"> 
+                    <div class="col col-md-6 col-lg-4"> 
                         <label for="year">Anno di Pubblicazione</label>
                         <input type="number" class="form-control"  id="year" placeholder="Inserisci l'anno">
                     </div>
 
                     <!-- Codice ISBN  -->
-                    <div class="col col-md-12"> 
+                    <div class="col col-md-12 col-lg-4"> 
                         <label for="isbn-code">Codice ISBN#</label>
                         <input type="number" class="form-control"  id="isbn-code" placeholder="Inserisci il Codice ISBN#">
                     </div>
+                </div>
+
+                <!-- Note, Checkbox Section  -->
+                <div class="container">
+                    <!-- Note- Text area  -->
+                    <label for="note">Note</label>
+                    <textarea class="form-control" id="note" rows="5" placeholder="Inserisci eventuali Note sul Libro"></textarea>
                 </div>
             </form>
         </div>
