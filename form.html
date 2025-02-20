@@ -46,7 +46,7 @@
     </header>
     <main>
         <div class="container">
-            <h1>Aggiungi Libro</h1>
+            <h1 class="m-4 ms-0">Aggiungi Libro</h1>
 
             <form action="">
                 <!-- Sezione Nome e Cognome -->
@@ -54,18 +54,21 @@
                     <!-- Nome  -->
                      <div class="col">
                         <label for="name">Nome Autore</label>
-                    <input type="name" class="form-control" id="name" placeholder="Inserisci il nome dell'autore">
+                    <input type="name" class="form-control mb-3" id="name" placeholder="Inserisci il nome dell'autore">
                      </div>
                     
                      <div class="col"> <!-- Cognome  -->
                         <label for="name">Cognome Autore</label>
-                        <input type="name" class="form-control"  id="name" placeholder="Inserisci il cognome dell'autore">
+                        <input type="name" class="form-control mb-3"  id="name" placeholder="Inserisci il cognome dell'autore">
                     </div>
                 </div>
                 <!-- Sezione Titolo  -->
-                <div>
+                <div class="mb-3">
                     <label for="title">Titolo</label>
                 <input type="text" class="form-control" id="title" placeholder="Inserisci il titolo del libro">
+                <div id="title" class="form-text">
+                    Titolo Versione Italiana
+                  </div>
                  </div>
 
 
@@ -74,7 +77,7 @@
                     <!-- Genere  -->
                      <div class="col col-md-6 col-lg-4">
                         <label for="book-genre">Genere</label>
-                        <select class="form-select" name="genre" id="book-genre">
+                        <select class="form-select mb-3" name="genre" id="book-genre">
                             <option value="" selected>Scegli il Genere</option>
                             <option value="1">Fantasy</option>
                             <option value="2">Commedia</option>
@@ -87,13 +90,13 @@
                     <!-- Anno di Pubblicazione  -->
                     <div class="col col-md-6 col-lg-4"> 
                         <label for="year">Anno di Pubblicazione</label>
-                        <input type="number" class="form-control"  id="year" placeholder="Inserisci l'anno">
+                        <input type="number" class="form-control mb-3"  id="year" placeholder="Inserisci l'anno">
                     </div>
 
                     <!-- Codice ISBN  -->
                     <div class="col col-md-12 col-lg-4"> 
                         <label for="isbn-code">Codice ISBN#</label>
-                        <input type="number" class="form-control"  id="isbn-code" placeholder="Inserisci il Codice ISBN#">
+                        <input type="text" class="form-control mb-3"  id="isbn-code" placeholder="Inserisci il Codice ISBN#">
                     </div>
                 </div>
 
@@ -102,7 +105,7 @@
                 <div class="note-section">
                     <!-- Note- Text area  -->
                     <label for="note">Note</label>
-                    <textarea class="form-control" id="note" rows="5" placeholder="Inserisci eventuali Note sul Libro"></textarea>
+                    <textarea class="form-control mb-2" id="note" rows="5" placeholder="Inserisci eventuali Note sul Libro"></textarea>
                     <!-- Checkbox  -->
                     <div class="form-check">
                         <input class="form-check-input" type="checkbox" value="" id="digital">
@@ -112,7 +115,7 @@
                       </div>
                 </div>
                  <!-- Submit Button  -->
-                <input class="btn btn-primary" type="submit" value="Aggiungi Libro">
+                <input class="btn btn-primary my-3" type="submit" value="Aggiungi Libro">
             </form>
         </div>
     </main>
